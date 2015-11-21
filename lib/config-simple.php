@@ -11,10 +11,10 @@ $tokb = 1024;
 $tomb = 1024*1024;
 $togb = $tomb*1024;
 //Define DB Connection  数据库信息
-define('DB_HOST','localhost');
+define('DB_HOST','45.78.54.126');
 define('DB_USER','root');
-define('DB_PWD','password');
-define('DB_DBNAME','db');
+define('DB_PWD','P2Akx9epKsMw');
+define('DB_DBNAME','tznchina');
 define('DB_CHARSET','utf8');
 define('DB_TYPE','mysql'); 
 /*
@@ -24,14 +24,14 @@ define('DB_TYPE','mysql');
 //define Plan
 //注册用户的初始化流量
 //默认5GiB
-$a_transfer = $togb*5;
+$a_transfer = $togb*1;
 
 //签到设置 签到活的的最低最高流量,单位MB
 $check_min = 1;
-$check_max = 100;
+$check_max = 750;
 
 //name
-$site_name = "ss-panel";
+$site_name = "tznchinass";
 $site_url  = "https://panel.com/";
 /**
  * 站点盐值，用于加密密码
